@@ -1,0 +1,40 @@
+*{
+  transition: 1000ms;
+  background-color: 1000ms;
+}
+.quote-box{
+  background-color:#fff;
+  padding: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 20px;
+}
+.quote{
+font-size: 24px;
+text-align: center;
+margin: 60px 0;
+}
+.quote::before, .quote::after{
+  content:'"';
+}
+.author{
+  font-size: 18px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  margin: 0;
+
+}
+button{
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  transform: translateY(-10px);
+}
+button:active{
+  box-shadow: none;
+  transform:translateY(0px);
+}
